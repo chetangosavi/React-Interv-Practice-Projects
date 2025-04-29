@@ -73,7 +73,7 @@ const TransferList = () => {
 
   return (
     
-    <div>
+    <div className="bg-black">
         <div className="uppercase text-white text-2xl font-bold text-center p-2">Transfer List</div>
         <div className="h-[600px] p-8 flex justify-center gap-4">
         
