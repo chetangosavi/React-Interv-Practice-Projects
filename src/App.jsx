@@ -1,41 +1,17 @@
-import TransferList from "./component/TransferList";
-import CouterTimer from "./component/CouterTimer";
-import ProgressBar from "./component/ProgressBar";
-import PBarPage from "./pages/PBarPage";
-import AccordionComponent from "./component/AccordionComponent";
-import AcordionComp from "./component/AcoComponent/AcordionComp";
+// import Practice1 from "./pages/Practice1"
+
+import Practice2 from "./pages/Practice2"
 
 const App = () => {
-  const arr = [1, 2, 3, 4, 5];
   return (
-    <div className=" mt-10">
-
-      {/* Counter Timer Compoent */}
-      <CouterTimer />
-
-      {/* TransferList Component */}
-      <TransferList />
-
-      {/* ProgressBar Components */}
-      <ProgressBar />
-      <PBarPage />
-
-      {/* Accordion Component */}
-        <div className="mt-10">
-          <div className="text-center text-2xl font-bold">
-            Accordion Component
-          </div>
-          {arr.map((value) => (
-            <AccordionComponent key={value} />
-          ))}
-        </div>
-
-      {/* Accordion Component - Using json file */}
-        <div className="mt-20 mb-20">
-          <AcordionComp />
-        </div>
+    <div>
+      <h1 className="text-center mt-4 font-bold text-xl">
+        Welcome To My Practice Ground
+      </h1>
+      {/* <Practice1/> */}
+      <Practice2/>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
