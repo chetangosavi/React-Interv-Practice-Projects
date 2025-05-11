@@ -20,7 +20,8 @@ const StarRating = ({ numOfStars = 1 }) => {
   };
 
   return (
-    <div>
+    <div className="mb-56">
+      <div><p className="font-bold text-2xl text-center uppercase">Star Rating</p></div>
       <div className="flex gap-2 justify-center items-center mt-7">
         {[...Array(numOfStars)].map(
           (_, index) => (
